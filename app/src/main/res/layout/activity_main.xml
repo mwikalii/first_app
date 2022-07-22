@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/mTvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:gravity="center"
+        android:text="Welcome To Android Programming"
+        android:textColor="#E91E63"
+        android:textSize="20sp"
+        android:textStyle="italic|bold" />
+
+    <TextView
+        android:id="@+id/mTVcontent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingTop="16dp"
+        android:paddingRight="16dp"
+        android:text="hello there welcome to the new android programming program
+, it all start wen u give up everything and
+try to work your way out through the streets and gain a good hustle "
+        android:textColor="#122"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:textSize="50px"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:backgroundTint="#B1117C"
+        android:id="@+id/btnlogin"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:text="login" />
+
+    <Button
+        android:id="@+id/btnregister"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="25dp"
+        android:backgroundTint="#B1117C"
+        android:text="register"
+        android:textSize="50px" />
+</LinearLayout>
